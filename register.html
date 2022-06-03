@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Registration page</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <main class="container">
+        <nav class="link">
+            <div class="linkup">
+                <a href="index.html">Home</a>
+            </div>
+            <div class="linkup">
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div class="linkup">
+                <a href="login.html">Login</a>
+            </div>
+            <div class="linkup">
+                <a href="calculator.html">Calculator</a>
+            </div>
+        </nav>
+        <article class="contents">
+            <div class="details">
+                <div class="reg1">
+                    <h1 class="reg">Register</h1>
+                </div>
+                <form action="login.html">
+                    <div class="forms">
+
+                        <div class="name">
+                            <div>
+                                <input type="text" name="first_name" id="first_name" required placeholder="firstname" />
+                            </div>
+                            <div>
+
+                                <input type="text" name="last_name" id="last_name" required placeholder="lastname" />
+                            </div>
+                        </div>
+                        <div class="name">
+                            <div>
+                                <input type="number" name="phone" id="phone" required placeholder="phone number" />
+                            </div>
+                            <div>
+
+                                <select id="gender">
+                                <option value="gender">gender</option>
+                                <option value="Male">male</option>
+                                <option value="Female">female</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="name">
+                            <div>
+                                <input type="text" name="country" id="country" required placeholder="country" />
+                            </div>
+                            <div>
+
+                                <input type="text" name="state" id="state" required placeholder="state" />
+                            </div>
+                        </div>
+                        <div class="name">
+                            <div>
+                                <input type="username" name="user_name" id="user_name" required placeholder="username" />
+                            </div>
+                            <div>
+                                <input type="password" name="pass" id="pass" required placeholder="password" />
+                            </div>
+                        </div>
+                        <div class="spec">
+                            <div>
+                                <input type="password" name="pass" id="pass" required placeholder="confirm password" />
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="specs">
+                        <input type="submit" value="submit">
+                    </div>
+                </form>
+
+
+            </div>
+</body>
+
+</html>
